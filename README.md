@@ -33,7 +33,7 @@ You can also view the current song and playlist.
 - Queue support.
 - Search Completion.
 - Add all control elements.
-- Discord Rich Presence
+- Discord Rich Presence.
 - Settings.
 - Responsive UI.
 - Improve error handling.
