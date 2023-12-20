@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Player Bar</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="player-bar">
+        <!-- Song Info -->
+        <div class="song-info">
+            <img id="album-art" class="song-artwork" src="" alt="Song Artwork">
+            <div class="song-details">
+                <div id="track-title" class="song-title">Track Title</div>
+                <div id="artist-name" class="song-artist">Artist Name</div>
+                <div id="playing-from" class="plying-from">Playing From: Tidal</div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="controls">
+            <button id="prev" class="control-button">◄</button> <!-- Previous -->
+            <button id="play" class="control-button">►</button> <!-- Play/Pause -->
+            <button id="next" class="control-button">►</button> <!-- Next -->
+            <span id="current-time">0:00</span>
+            <!-- Progress Bar -->
+            <input id="progress" placeholder="0" type="range" value="0" min="0" max="100">
+            <span id="duration">0:00</span>
+        </div>
+        <!-- Volume -->
+        <div class="volume">
+            <button id="volume" class="control-button">&#x1F507;</button> <!-- Volume -->
+        </div>
+        <!-- More Options -->
+        <div class="more-options">
+            <button id="more-options" class="control-button">&#x22EE;</button> <!-- More options -->
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

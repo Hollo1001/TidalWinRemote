@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Expletus Sans", sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+.player-bar {
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.song-info {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.song-artwork {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
+.song-artist {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.control-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.player-bar span {
+    margin: 0 5px;
+}
+
+.quality {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#playing-from {
+    font-size: 0.8em;
+    color: #c4c3c3;
+}
+
+#progress {
+    width: 300px;
+    background-color: black;
+}
+
+input[type="range"] {
+    accent-color: rgb(255, 255, 255);
+}
