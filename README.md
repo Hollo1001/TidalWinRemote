@@ -22,16 +22,18 @@ This project provides a remote control interface for the Tidal music streaming s
 4. Open a web browser and navigate to `http://localhost:5000`.
 
 ## Usage
-The web interface provides buttons for play/pause, next track, and previous track. You can also view the current song and playlist.
+The web interface provides buttons for play/pause, next track, and previous track.
+You can also view the current song and playlist.
 
 ## To-Do
-- Add volume control.
-- Add search functionality.
-- Add playlist support.
-- Add queue support.
+- Volume control.
+- Search functionality.
+- Seeking in a song.
+- Playlist support.
+- Queue support.
 - Search Completion.
 - Add all control elements.
-- Add settings.
+- Settings.
 - Responsive UI.
 - Improve error handling.
 
