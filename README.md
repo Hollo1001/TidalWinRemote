@@ -2,9 +2,7 @@
 
 This project provides a remote control interface for the Tidal music streaming service. It uses a Flask server to provide a web interface that can send commands to the Tidal desktop app.
 
-## Motivation
-
-The motivation behind this project was to provide a way to control Tidal playback without needing to switch to the Tidal app. This can be especially useful if you're working in another app and don't want to interrupt your workflow.
+![image](https://github.com/Hollo1001/TidalWinRemote/assets/13909138/5e1fbed4-7e60-4656-ac24-297c2c8624a7)
 
 ## Setup
 0. Have Tidal Windows App Installed
@@ -37,7 +35,7 @@ The web interface provides buttons for play/pause, next track, and previous trac
 - Responsive UI.
 - Improve error handling.
 
-## Why I'm Building a Tidal Remote App
+## Motivation
 
 As a user of Tidal, I've recognized a significant gap in its functionality compared to some of its competitors like Spotify. Tidal is renowned for its high-quality audio, but it lacks the ability to control playback on a PC remotely from another device. This feature is especially vital for audiophiles and those with advanced audio setups who prefer to manage their music without being physically present at their computer.
 
